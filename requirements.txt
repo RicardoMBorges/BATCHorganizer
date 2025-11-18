@@ -9,4 +9,3 @@ scikit-learn
 opencv-python
 Pillow>=9.0.0
 ipyevents
-psycopg2
