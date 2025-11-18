@@ -90,7 +90,7 @@ st.sidebar.markdown("""
 
 st.sidebar.markdown("""---""")
 
-TUTORIAL_URL = "https://github.com/RicardoMBorges/DBsimilarity_st"
+TUTORIAL_URL = "https://github.com/RicardoMBorges/BATCHorganizer/blob/main/README.md"
 try:
     st.sidebar.link_button("📘 Tutorial", TUTORIAL_URL)
 except Exception:
@@ -102,7 +102,7 @@ except Exception:
     )
 
 
-MockData_URL = "https://github.com/RicardoMBorges/DBsimilarity_st/MockData"
+MockData_URL = "https://github.com/RicardoMBorges/BATCHorganizer/tree/main/Mock%20Data"
 try:
     st.sidebar.link_button("Mock Data", MockData_URL)
 except Exception:
