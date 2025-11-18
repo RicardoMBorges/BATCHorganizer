@@ -8,6 +8,6 @@ matplotlib
 jupyter-server
 scikit-learn
 opencv-python
-PIL
+Pillow>=9.0.0
 ipyevents
 psycopg2
