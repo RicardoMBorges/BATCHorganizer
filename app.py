@@ -385,7 +385,7 @@ batch_structure_raw = st.sidebar.text_input(
 
 qc_structure_raw = st.sidebar.text_input(
     "QC structure (number of QC blocks per block in batch_structure)",
-    value="3,3,2",
+    value="1,1,1",
 )
 
 qc_samples_str = st.sidebar.text_input(
