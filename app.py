@@ -445,7 +445,7 @@ if run_pipeline or not st.session_state.pipeline_ready:
     if data_source == "CENABIO TXT tables":
         # ----- original TXT workflow -----
         if not folder_path:
-            st.error("Please provide the folder path containing the CENABIO TXT files.")
+            st.error("Please, provide the folder path containing the CENABIO TXT files.")
             st.stop()
 
         try:
@@ -743,4 +743,5 @@ st.markdown(
     
     Check also: [TLC2Chrom](https://tlc2chrom.streamlit.app/)
     """
+
 )
