@@ -357,7 +357,7 @@ DEFAULT_FOLDER = r"C:\Users\borge\Documents\ex_extracta\downloaded"
 folder_path = None
 uploaded_file = None
 
-if data_source == "CENABIO TXT tables":
+if data_source == "Generic CSV/Excel metadata":
     folder_path = st.sidebar.text_input(
         "Folder with CENABIO TXT files",
         value=DEFAULT_FOLDER,
