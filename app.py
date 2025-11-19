@@ -113,7 +113,7 @@ except Exception:
         unsafe_allow_html=True,
     )
     
-VIDEO_URL = "https://youtu.be/2Ou160tkJ5c"
+VIDEO_URL = "https://youtu.be/D8EhWk_BtV0"
 try:
     st.sidebar.link_button("Video", VIDEO_URL)
 except Exception:
